@@ -25,6 +25,7 @@
             android:background="@color/accent_color" />
 
         <com.dosssik.andrey.savemyeye.wiget.RippleView
+            android:id="@+id/nav_menu_info_item"
             android:layout_width="match_parent"
             android:layout_height="48dp"
             android:gravity="center_vertical">
@@ -51,6 +52,7 @@
         </com.dosssik.andrey.savemyeye.wiget.RippleView>
 
         <com.dosssik.andrey.savemyeye.wiget.RippleView
+            android:id="@+id/nav_menu_settings_item"
             android:layout_width="match_parent"
             android:layout_height="48dp"
             android:gravity="center_vertical">
@@ -79,7 +81,7 @@
 
 
         <LinearLayout
-            android:id="@+id/nv_settings_container"
+            android:id="@+id/nav_settings_container"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginEnd="@dimen/common_gap"
@@ -133,6 +135,7 @@
         </LinearLayout>
 
         <com.dosssik.andrey.savemyeye.wiget.RippleView
+            android:id="@+id/nav_menu_rate_item"
             android:layout_width="match_parent"
             android:layout_height="48dp"
             android:gravity="center_vertical">
